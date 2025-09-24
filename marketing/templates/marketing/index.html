@@ -1,20 +1,9 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Aitonepage" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
 <html lang="en" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Metronic "Aitonepage" Frontend Freebie</title>
+        <title>Atlas Electronics Group</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -22,15 +11,15 @@
 
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'vendor/simple-line-icons/simple-line-icons.min.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
 
         <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+        <link href="{% static 'vendor/swiper/css/swiper.min.css' %}" rel="stylesheet" type="text/css"/>
 
         <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'css/layout.min.css' %}" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -55,8 +44,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="{% static 'img/logo.png' %}" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="{% static 'img/logo-dark.png' %}" alt="Asentus Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -103,7 +92,7 @@
                                 <h1 class="carousel-title">Hi-Tech Design</h1>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                            <a href="" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +104,7 @@
                                 <h2 class="carousel-title">Hi-Tech Design</h2>
                                 <p class="color-white">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
                             </div>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +152,7 @@
                                 <h2>Why Choose Us?</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>
+                            <a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>
                         </div>
                         <div class="col-md-5 col-sm-7 col-md-offset-2">
                             <!-- Accordion -->
@@ -239,9 +228,9 @@
                         <div class="margin-b-20">
                             <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
                         </div>
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Workspace</a> <span class="text-uppercase margin-l-20">Management</span></h4>
+                        <h4><a href="#">Workspace</a> <span class="text-uppercase margin-l-20">Management</span></h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                        <a class="link" href="#">Read More</a>
                     </div>
                     <!-- End Latest Products -->
 
@@ -250,9 +239,9 @@
                         <div class="margin-b-20">
                             <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
                         </div>
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Minimalism</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
+                        <h4><a href="#">Minimalism</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                        <a class="link" href="#">Read More</a>
                     </div>
                     <!-- End Latest Products -->
 
@@ -261,9 +250,9 @@
                         <div class="margin-b-20">
                             <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
                         </div>
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Cleant Style</a> <span class="text-uppercase margin-l-20">Design</span></h4>
+                        <h4><a href="#">Cleant Style</a> <span class="text-uppercase margin-l-20">Design</span></h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                        <a class="link" href="#">Read More</a>
                     </div>
                     <!-- End Latest Products -->
                 </div>
@@ -605,7 +594,7 @@
                                     <h3>Art Of Coding</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                         <div class="col-sm-4 sm-margin-b-2">
@@ -617,7 +606,7 @@
                                     <h3 class="color-white">Responsive Design</h3>
                                     <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -629,7 +618,7 @@
                                     <h3>Feature Reach</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                     </div>
@@ -645,7 +634,7 @@
                                     <h3>Useful Documentation</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                         <div class="col-sm-4 sm-margin-b-2">
@@ -657,7 +646,7 @@
                                     <h3>Fast Delivery</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -669,7 +658,7 @@
                                     <h3>Free Plugins</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>    
                             </div>
                         </div>
                     </div>
