@@ -45,14 +45,14 @@ INSTALLED_APPS = [
 
     # third party
     "rest_framework",
-    "allauth",
-    "allauth.account",
-    "allauth.facebook",
+    # "allauth",
+    # "allauth.account",
+    # "allauth.facebook",
     "django_filters",
-    "django_money",
+    "djmoney",
 
     # our apps
-    "frontend",
+    "marketing",
     "store",
 ]
 
